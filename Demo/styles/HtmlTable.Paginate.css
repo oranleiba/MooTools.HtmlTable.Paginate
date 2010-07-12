@@ -1,0 +1,38 @@
+#tableWrapper{
+	margin: 0 auto;
+	width:900px;
+	text-align:center;
+	border: 1px solid #AEAEAE;
+}
+
+#generatedTable{
+	width:95%
+}
+
+#generatedTable td,#generatedTable th{
+	width:19%
+}
+
+.ul-pagination-control, .ul-numOfRows-control {
+	display:inline;
+	font-size:12px;
+	list-style:none outside none;
+	padding-left:5px;
+}
+
+.li-pagination-control, .li-numOfRows-control {
+	cursor:pointer;
+	display:inline;
+}
+
+.li-pagination-control span, .li-numOfRows-control span {
+	display:inline-block;
+	margin:0 2px;
+	min-width:3ex;
+	padding:3px;
+	text-decoration:underline;
+}
+
+.li-pagination-control span:hover, .li-pagination-current span, .li-numOfRows-control span:hover, .li-numOfRows-current span {
+	text-decoration:none;
+}
