@@ -7,7 +7,7 @@ description: Adds a pagination control to a HtmlTable.
 
 license: MIT-style license
 
-author:
+authors:
 - Oran Leiba, etootim.com
 
 requires:
