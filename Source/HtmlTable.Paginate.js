@@ -77,9 +77,9 @@ HtmlTable = Class.refactor(HtmlTable, {
         },
 
         updatePaginationControl: function(){
-            if($defined((this.options.controlDiv))){
+            if((this.options.controlDiv) != undefined){
                 this.options.controlDiv.empty();
-                if($defined(this.body.rows)){
+                if(this.body.rows != undefined){
                     var numOfRows = this.body.rows.length;
                         if(numOfRows>0){
                             var numOfPages = Math.ceil(numOfRows/this.options.paginateRows);
